@@ -1,0 +1,1160 @@
+Manifest-Version: 1.0
+Created-By: 1.5.0_11-b03 (Sun Microsystems Inc.)
+Ant-Version: Apache Ant 1.6.5
+Main-Class: org.tranche.LocalDataServer
+
+Name: org/tranche/hash/BigHashMaker.class
+SHA1-Digest: rx9njvK8W74401b5/rpubZ+g/DU=
+
+Name: org/tranche/LocalDataServer.class
+SHA1-Digest: KfAZhm9hw8iyCGYpIWp/Ae0eJJg=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$Request.class
+SHA1-Digest: yRi9fQnksmk/fUDAE/EkrVowiEI=
+
+Name: org/tranche/exceptions/ServerIsNotWritableException.class
+SHA1-Digest: 9AVvCf4JCGrGJpJSpLMwRxpFp0o=
+
+Name: org/tranche/get/GetFileToolFailedChunksListener.class
+SHA1-Digest: azAnS0vBNjzUmAmYeefw2yU3PO8=
+
+Name: org/tranche/server/HostSignatureNonceWrapper.class
+SHA1-Digest: 3DeC9Q5ZWg84xYOXRe0s42bv2jE=
+
+Name: org/tranche/users/InvalidSignInException.class
+SHA1-Digest: D1FhwC7cQ6jQreDJoN7RRG9tLn0=
+
+Name: org/tranche/security/EasySSLProtocolSocketFactory.class
+SHA1-Digest: WIQL0pSd1LXF8xqCEUl1WAAOTyk=
+
+Name: org/tranche/remote/BooleanCallback.class
+SHA1-Digest: vTG9lH46fytXGwFjWTVGzPNoz20=
+
+Name: org/tranche/flatfile/HashSpanFixingThreadPolicyDecider.class
+SHA1-Digest: 3Q/qOkqgqtlUIC2HTxeOPtHsYCA=
+
+Name: org/tranche/util/OperatingSystemUtil$CommandStreamHandler.class
+SHA1-Digest: LJ5kICFfKvSNxQMxUqoONJVZiso=
+
+Name: org/tranche/logs/activity/ActivityLog$1.class
+SHA1-Digest: ZeWok7BzK9YpRR+n9QtbUumT9ms=
+
+Name: org/tranche/network/ServerStatusTablePerspective.class
+SHA1-Digest: JF+2r3sCqDtyah9v+ZmW1EELBKI=
+
+Name: org/tranche/annotations/FixList.class
+SHA1-Digest: Y3FtYE1rr2grXUMiW0Z79rdiCD4=
+
+Name: org/tranche/remote/RemoteTrancheServer$1.class
+SHA1-Digest: YvxuAejZfK15cNKDeXf/M6vsTLE=
+
+Name: org/tranche/httpd/HttpConstant.class
+SHA1-Digest: LdBg4315o1JIMvb3v5aYLoBr6c8=
+
+Name: org/tranche/exceptions/ServerIsOfflineException.class
+SHA1-Digest: Q3KF9X1AkQGVc2H0RPs5ScrKrjw=
+
+Name: org/tranche/project/FileToReplicate.class
+SHA1-Digest: AbaM6AlR22soUNi/BdClGIkCGFY=
+
+Name: org/tranche/project/ArbitraryProjectBuildingTool$ProjectFileCach
+ eItem.class
+SHA1-Digest: opbVXib172KoTiybk/xWeLVMgio=
+
+Name: org/tranche/configuration/ConfigKeys$Permissions.class
+SHA1-Digest: oQ36QY+NmTM3UsVeegC9NPv3pBg=
+
+Name: org/tranche/security/EasyX509TrustManager.class
+SHA1-Digest: c61GYAQehP25NjAoNYWi4UNfOwg=
+
+Name: org/tranche/util/PersistentServerFileUtil.class
+SHA1-Digest: jCa6q/2v+3h1bE8b0J7HPevCN3I=
+
+Name: org/tranche/network/ClientStatusUpdateProcess$1.class
+SHA1-Digest: mN17VJkbiW/2dFxCt+5nm6/+EVk=
+
+Name: org/tranche/LocalRoutingServer.class
+SHA1-Digest: MKuD7va0Fi+PH1RITyYzB899DhQ=
+
+Name: org/tranche/hash/span/AbstractHashSpan.class
+SHA1-Digest: /OP1bjGyujzY1KL464BZl58vowE=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$1.class
+SHA1-Digest: DAWq/YpyQPOGqQld6szlYoHWzPw=
+
+Name: org/tranche/server/logs/LogEntryQueueItem.class
+SHA1-Digest: lPvel5KHO3H6BqaDqjMMiCVcewo=
+
+Name: org/tranche/server/ServerItem.class
+SHA1-Digest: GZhAOqNfrNxqobrpe3Y86W1NX2s=
+
+Name: org/tranche/server/logs/LogWriter.class
+SHA1-Digest: C4gugId+BPgVLNonv6BrspE6kmE=
+
+Name: org/tranche/scripts/InjectDataIntoTrancheNetwork$ChunkCheckThrea
+ d.class
+SHA1-Digest: ciug6iaUb7pvCjMn5EdzxnuT1LM=
+
+Name: org/tranche/remote/GetBytesCallback.class
+SHA1-Digest: QbXA3Z1BSvIpbzDuIzrdJWz3U30=
+
+Name: org/tranche/server/SetDataItem.class
+SHA1-Digest: xhHOy2QjZGJD+OyALra61siy1go=
+
+Name: org/tranche/project/CommandLineProjectReplicationToolListener.cl
+ ass
+SHA1-Digest: Cp1KWmfZGXpmM0i189Aww2iJId4=
+
+Name: org/tranche/exceptions/PassphraseIncorrectException.class
+SHA1-Digest: AF5hoCfkgL/LTyfSGa6BEyVaVs4=
+
+Name: org/tranche/add/AddFileToolListener.class
+SHA1-Digest: 9fMw2r5OtxWnFl9560Iw5nU3iYE=
+
+Name: org/tranche/clc/KillItem.class
+SHA1-Digest: 6l+PfOxhwHgRJODwBo0OvXBE790=
+
+Name: org/tranche/network/NetworkUtil$1.class
+SHA1-Digest: Ih3a3hRWWJaNU7RxLdnDwwfV8hQ=
+
+Name: org/tranche/license/CC0-1.0-Universal
+SHA1-Digest: VWPgIOrmZV/2KXB/p+1L+QYBDf0=
+
+Name: org/tranche/util/OperatingSystemUtil$1.class
+SHA1-Digest: YXWZe3bHv9ZvJo0bOAbpJueZR6Y=
+
+Name: org/tranche/network/NetworkUtil$2.class
+SHA1-Digest: cSUovZYeJrDtnawuXEsd0UqmYzo=
+
+Name: org/tranche/get/GetFileTool$DirectoryMetaDataDownloadingThread.c
+ lass
+SHA1-Digest: BooXKJPeqd8++hcaz+HQlSds0F4=
+
+Name: org/tranche/get/GetFileToolListener.class
+SHA1-Digest: YaMKsLYW+8ERuL9R05L5+xjI1xo=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$SocketActivityWrapper.
+ class
+SHA1-Digest: luGDaMZJfHGJ28bMrBRCSVojsIE=
+
+Name: org/tranche/logs/LogUtil.class
+SHA1-Digest: p8a3yWhHa45vxficpsmj8tsAGgU=
+
+Name: org/tranche/hash/DiskBackedBigHashList$Partition.class
+SHA1-Digest: R9yu8Xx51eHouCERxECXP5K37G8=
+
+Name: org/tranche/flatfile/HashSpanFixingThread$1.class
+SHA1-Digest: KCJNBko0b8OaUP7FwXjTmem/jYw=
+
+Name: org/tranche/httpd/www/error.html
+SHA1-Digest: ZiXAORX3ik7jYRThr669H272NZI=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$ExceptionRecord.class
+SHA1-Digest: VhfLMFRAdwrIatYTnMzBwdPTrNI=
+
+Name: org/tranche/hash/Base16.class
+SHA1-Digest: cncud9z1h7rD3Q8Vtvvf2DVEmx8=
+
+Name: org/tranche/exceptions/RejectedRequestException.class
+SHA1-Digest: G0tpynmV9gBGDHPviPmytIJ+lWU=
+
+Name: org/tranche/httpd/Httpd.class
+SHA1-Digest: axjrIcdrUBqZ09oOY0RemDT+yuo=
+
+Name: org/tranche/users/MakeUserZipFileTool.class
+SHA1-Digest: s0qXcVfhEX/uAr4D3LuGfrMzCvQ=
+
+Name: org/tranche/server/RejectedRequestItem.class
+SHA1-Digest: GoWcf9w0PG6psJzpom49DjbW44M=
+
+Name: org/tranche/server/logs/LogSubmitter.class
+SHA1-Digest: Dbcbb1S+4+mIMNN/2h9B9sh7Wzs=
+
+Name: org/tranche/streams/StringPrintStream$StringOutputStream.class
+SHA1-Digest: 3snv+ys3bLbZUgOKHdBihpsnoJI=
+
+Name: org/tranche/timeestimator/ContextualTimeEstimator.class
+SHA1-Digest: KMszwu4uWOXd7ydqzI4RjQdJa2s=
+
+Name: org/tranche/util/PreferencesUtil.class
+SHA1-Digest: SbsqzHM7kl4lE/53u3s6XF5aixs=
+
+Name: org/tranche/flatfile/logs/DiskBackedTransactionLog.class
+SHA1-Digest: Gj8FNhmNW1Aoz3Tbjty/9/8MPqQ=
+
+Name: org/tranche/server/DeleteDataItem$1.class
+SHA1-Digest: oDAW0Be3M0QffJgQo24Ebcyyam0=
+
+Name: org/tranche/flatfile/logs/InMemoryAggregateLog.class
+SHA1-Digest: HOcRoHnIHeo/uKKeZSzTCJIO41s=
+
+Name: org/tranche/exceptions/UnknownArgumentException.class
+SHA1-Digest: 6M6vxeB8pyvoe/TkSuEWjRo+dy0=
+
+Name: org/tranche/httpd/SocketHandler.class
+SHA1-Digest: lWC1unIC0BKwnyTmLmCpr9Rq+Zk=
+
+Name: org/tranche/project/ProjectSummaryCache$1.class
+SHA1-Digest: AAe9Pn9aTS+aA5G/PNHLbJKaQIc=
+
+Name: org/tranche/flatfile/ReplaceCorruptedDataBlockThread.class
+SHA1-Digest: iT2vW5S5PRj560CF0s1GWmV+sNE=
+
+Name: org/tranche/remote/BooleanArrayCallback.class
+SHA1-Digest: ylbMpNGpAz77J8uBD+Q5G50PyjE=
+
+Name: org/tranche/add/AddFileToolUtil.class
+SHA1-Digest: Ijuu9iEWaTXF5pEqKNVCWm3OVvY=
+
+Name: org/tranche/meta/MetaDataCache.class
+SHA1-Digest: ZSWk+6uvQnykYTorSQmyo0W0p+k=
+
+Name: org/tranche/network/MultiServerRequestStrategy$Host.class
+SHA1-Digest: DMV0MFRKThTjYi/Sl2cEHRe/iQo=
+
+Name: org/tranche/httpd/www/ws/download.jnlp
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: org/tranche/server/PropagationReturnWrapper.class
+SHA1-Digest: LfQd8SR5I24TG724sOpZTNq92Uc=
+
+Name: org/tranche/server/GetMetaDataItem.class
+SHA1-Digest: xG76Ybq5iTOzraRz2LlBNTrfVN0=
+
+Name: org/tranche/remote/RemoteTrancheServer.class
+SHA1-Digest: VZcidpiTNgZBykW3b9XlHidkaDY=
+
+Name: org/tranche/add/AddFileTool$MetaChunk.class
+SHA1-Digest: 7zAq2uEpfYKlDrXLA2HOAKLKqks=
+
+Name: org/tranche/server/ServerWorkerThread$ServerWorkerOutputThread.c
+ lass
+SHA1-Digest: oWiX8/ANaBm5tMDBI6ydliZsJ7Y=
+
+Name: org/tranche/network/ConnectionUtil$2.class
+SHA1-Digest: NnD3YWZKVwR0B7cToDQ6VDBXpE4=
+
+Name: org/tranche/users/UserZipFile.class
+SHA1-Digest: nwcx0UJbaJoE6+C3J9ZZanMcVfM=
+
+Name: org/tranche/server/logs/LogUtil.class
+SHA1-Digest: mBfqt5NH/Do1z+xWRklofChj7y0=
+
+Name: org/tranche/logs/SimpleLog$LogWriterThread.class
+SHA1-Digest: X0SXLsBmw6+JMvNxknzUfbCpw24=
+
+Name: org/tranche/util/CompressionUtil.class
+SHA1-Digest: Ic/vZ5V4OilCSq9CmMuKNk7TBjY=
+
+Name: org/tranche/meta/EditMetaDataToolListener.class
+SHA1-Digest: qpZ9oKrIn/a2P7e/4JonUXsi3T8=
+
+Name: org/tranche/network/ConnectionsKeepAliveThread.class
+SHA1-Digest: OOfHbl9kK4Xewd09YW1Zwd8TPQA=
+
+Name: org/tranche/exceptions/ChunkDoesNotBelongException.class
+SHA1-Digest: eXS0I34rWKoLelsJ993Usufl0o0=
+
+Name: org/tranche/flatfile/ReplaceCorruptedDataBlockThread$ChunkToRetr
+ ieve.class
+SHA1-Digest: rwI2k9PihsCOcQkKbebGEHPoVfk=
+
+Name: org/tranche/project/ProjectFilePart.class
+SHA1-Digest: 9/TnQUCWav+VqQBydIiPWGg6iKM=
+
+Name: org/tranche/util/TestUtilListener.class
+SHA1-Digest: xYDSlXWttWbNBYqZ18OPpsK79rI=
+
+Name: org/tranche/users/UserCertificateUtil.class
+SHA1-Digest: SKXSjT5Huco1Lh4txC2Y9vQwe3Y=
+
+Name: org/tranche/tasks/ExcelSavvyLineSplitter.class
+SHA1-Digest: QoH0J2b9wQVtyKx9iLkblzT7BG4=
+
+Name: org/tranche/servers/ServerAdapter.class
+SHA1-Digest: gPi/0qxHLTsPsIanUKKwZqirdkQ=
+
+Name: org/tranche/meta/MetaData$MetaDataUploader.class
+SHA1-Digest: hh0C5wLOSVCglkhpxDkUhHnu8JI=
+
+Name: org/tranche/remote/RemoteCallback.class
+SHA1-Digest: a5MGJQ2t3qkwLQCAcMBErWFTdnA=
+
+Name: org/tranche/publish/PublishFileTool.class
+SHA1-Digest: 0F15jmzynUicyKPnT5qVc/dmA8g=
+
+Name: org/tranche/server/logs/LogSubmitter$LoggerQueueThread.class
+SHA1-Digest: TcBKcjgYosy/tt+D8hWWKS4ISOU=
+
+Name: org/tranche/flatfile/ServerConfiguration.class
+SHA1-Digest: sO1hBmnq+C6DzYTiNzuMvPnRNl4=
+
+Name: org/tranche/tasks/CSVReader.class
+SHA1-Digest: +gFG7ZqnxrzGLuTlkM0pgf6XwD8=
+
+Name: org/tranche/server/logs/UploadFailedException.class
+SHA1-Digest: Ke7J0efGnc/CrjlGYUy1fUiFLM0=
+
+Name: org/tranche/exceptions/NoHostProvidedException.class
+SHA1-Digest: U89cvoQqjgopb3W6r42Tsn/hFJM=
+
+Name: org/tranche/get/CommandLineGetFileToolListener.class
+SHA1-Digest: XDDWuwDJHOJwrotuHbNjfXYh9fk=
+
+Name: org/tranche/exceptions/CantVerifySignatureException.class
+SHA1-Digest: sEdx1B2g4ZD2DcfFckGhhpb4ILQ=
+
+Name: org/tranche/exceptions/ChunkAlreadyExistsSecurityException.class
+SHA1-Digest: Q5tBG0OlxptV3qCtozEJuyzeHL4=
+
+Name: org/tranche/exceptions/AssertionFailedException.class
+SHA1-Digest: Ft5XjUJk61T+2hbyf8qZRzIzSE4=
+
+Name: org/tranche/users/UserZipFileUtil.class
+SHA1-Digest: GN5JGdGkNR1crma0Gr+eCWpaXgE=
+
+Name: org/tranche/scripts/ScriptsUtil$ChunkType.class
+SHA1-Digest: rBKoXSfv9ftusQwjUAjB9ZpNJlI=
+
+Name: org/tranche/servers/ServerMessageDownEvent.class
+SHA1-Digest: OKjQsrpyl8evoDC5sCS8Qs8JHo0=
+
+Name: org/tranche/flatfile/logs/DataBlockUtilLog.class
+SHA1-Digest: 1lfCg8l+iu5WH9rEHwSuzIx2kWo=
+
+Name: org/tranche/add/AddFileTool$1.class
+SHA1-Digest: 1IJYEY/8XLrJqqgqhmT8kHXpfUA=
+
+Name: org/tranche/hash/DiskBackedBigHashSet.class
+SHA1-Digest: I1TuwcG8T037A20kFPOxr8xbYus=
+
+Name: org/tranche/logs/activity/ActivityLog.class
+SHA1-Digest: 5V3fssiLcmnMzPfbXuFYMOKuXwE=
+
+Name: org/tranche/tasks/CSVFile.class
+SHA1-Digest: UeijlFE57tUABW6gRTzFBhKpVwQ=
+
+Name: org/tranche/exceptions/NoOnlineServersException.class
+SHA1-Digest: tXUSQL1a/1TJ8qqVUDkbcUxLdnI=
+
+Name: org/tranche/logs/activity/ActivityLog$SignatureMap.class
+SHA1-Digest: mraN9fWIwIy4vcyt0R7fZI2vmUM=
+
+Name: org/tranche/project/ProjectSummaryCache.class
+SHA1-Digest: vARDqbpXGgYLDFJpx6cAbLGpAzY=
+
+Name: org/tranche/delete/DeleteFileToolReport.class
+SHA1-Digest: jkixtkkQu5xYWzExWwHEMmScqBk=
+
+Name: org/tranche/get/GetFileToolUtil.class
+SHA1-Digest: 1Vz85cCe5DrU8UZZa2isbIgaMAk=
+
+Name: org/tranche/users/MakeRepositoryCertsTool.class
+SHA1-Digest: ZbJki61sa6maZX5vkXzeLhMf8RQ=
+
+Name: org/tranche/license/License.class
+SHA1-Digest: lbsQFShiwfwMfNdPAN03Vhdb+pI=
+
+Name: org/tranche/get/GetFileTool$DataChunk.class
+SHA1-Digest: /y6MEtrF6scsGTOFT1RmUWE4H+M=
+
+Name: org/tranche/server/NonceItem$1.class
+SHA1-Digest: kYa5DrQmR8jgp9b17OpGtx1+2ns=
+
+Name: org/tranche/flatfile/NonceMap.class
+SHA1-Digest: uJEXxTIS3IPk2dqNBpw9SZuOmMo=
+
+Name: org/tranche/meta/EditMetaDataToolReport.class
+SHA1-Digest: ujftrXuWDBwDxcIaffh8KCjFhyA=
+
+Name: org/tranche/network/ClientStatusUpdateProcess.class
+SHA1-Digest: DtThea8GfvLgzkQO8UpjSq59lXU=
+
+Name: org/tranche/hash/span/HashSpan.class
+SHA1-Digest: TfkvZ9MOnYAnk8F1od9nfjZGC6g=
+
+Name: org/tranche/server/logs/LogReader.class
+SHA1-Digest: 5Rzs44MWJXmKUkY8eKIRt3VX7I8=
+
+Name: org/tranche/server/logs/AutoUploadingBinaryLog$ValidationThread.
+ class
+SHA1-Digest: JBukOjX+LtYWwxq3K5OvG0n9glc=
+
+Name: org/tranche/add/AddFileToolPerformanceLog$ChunkType.class
+SHA1-Digest: Qtrhm4K29MCEtf5qu0SlDtfMbeU=
+
+Name: org/tranche/get/GetFileToolPerformanceLog$ChunkWrapper.class
+SHA1-Digest: z4rLWgf3mvJUlxdvVvGL2Swq7sY=
+
+Name: org/tranche/httpd/Main.class
+SHA1-Digest: 0y5O+ceC3+V8MekkxAMNWcAOnk0=
+
+Name: org/tranche/clc/HelpItem.class
+SHA1-Digest: EQkDFVXlrmEYW+n6+C0mFJ88o+E=
+
+Name: org/tranche/flatfile/TargetHashSpanThread.class
+SHA1-Digest: I1RV+V4a9MPl4eKgv5pHT9xvXvk=
+
+Name: org/tranche/hash/DiskBackedBigHashList$DiskBackedHashListIterato
+ r.class
+SHA1-Digest: u6NnzSH+SDNS+Jg1PkT97GC7Sts=
+
+Name: org/tranche/httpd/Queue.class
+SHA1-Digest: 9j6r2cT36CrX6XzwADT6UIqRhyA=
+
+Name: org/tranche/exceptions/PropagationFailedException.class
+SHA1-Digest: GfttXKBYULnM8TiSdFX/U3F4W1k=
+
+Name: org/tranche/routing/RoutingTrancheServer.class
+SHA1-Digest: 9ao5FAtro+g1RNlKNXnzIjWflw8=
+
+Name: org/tranche/exceptions/TodoException.class
+SHA1-Digest: 1zosjXXqK2Gv1+zcj4hyv91fsP8=
+
+Name: org/tranche/network/StatusTableEvent.class
+SHA1-Digest: ALgpch+tjzr2mCGnd6RjFxWREPg=
+
+Name: org/tranche/remote/IntegerCallback.class
+SHA1-Digest: qNUnxUz66WqCrxiyjbnxBtBRCTc=
+
+Name: org/tranche/server/DeleteMetaDataItem.class
+SHA1-Digest: wC+HO7pZ+cxJGjYDbXjIHkZoBro=
+
+Name: org/tranche/network/StatusTableListener.class
+SHA1-Digest: 8elz0ZZofWPaCy3bE0RSA/1lWLk=
+
+Name: org/tranche/users/User.class
+SHA1-Digest: rNP3krsiJfGxyO+c9eFl3ggvwiE=
+
+Name: org/tranche/time/TimeUtil.class
+SHA1-Digest: mA7E9kpGROngP2gRzqEtGeCoUAY=
+
+Name: org/tranche/server/ShutdownItem.class
+SHA1-Digest: 9qas5EwVZdp9oTyZ2uSSCmdvHl8=
+
+Name: org/tranche/network/NetworkUtil$3.class
+SHA1-Digest: tSF5wqqsynS5lJzK+4zVSxtpNIs=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$SocketActivity.class
+SHA1-Digest: Z26Vhsbin6hpKDM8+Qo8XK6jMmc=
+
+Name: org/tranche/clc/ServerItem.class
+SHA1-Digest: Azp5D16oD00ohMmedn+59+/MnHY=
+
+Name: org/tranche/network/ServerStatusUpdateProcess.class
+SHA1-Digest: mLLEM9jvg4AHAOxfFBSLiGMKDC8=
+
+Name: org/tranche/flatfile/DataBlockUtil$1.class
+SHA1-Digest: EgMIlB0bomew5b48fsUBT1fy1oU=
+
+Name: org/tranche/add/AddFileTool$MetaDataUploadingThread.class
+SHA1-Digest: BkLtMZd0bwX5aIchoS5GgvTnOX4=
+
+Name: org/tranche/get/GetFileTool$MetaChunkBatch.class
+SHA1-Digest: e+duwN946nXmQrXL+4cKjCaDyF4=
+
+Name: org/tranche/hash/BigHash.class
+SHA1-Digest: dgTHs0xVEXoeF8F0hEzpuy/64Kk=
+
+Name: org/tranche/add/AddFileTool$ChunkQueueingStream.class
+SHA1-Digest: a/Xfw0w0bDpBJkFNu7NRsU3khOE=
+
+Name: org/tranche/flatfile/DataBlockCacheEntry.class
+SHA1-Digest: oirsSx9DPz8jTjmfgmWFJHzt6lY=
+
+Name: org/tranche/hash/Base64$InputStream.class
+SHA1-Digest: 3Lv4LRYxV76dcjPHBKxhDSvMjbc=
+
+Name: org/tranche/network/Connection.class
+SHA1-Digest: wmE4XwHtK/pKxhqAZKRqGNJYhSo=
+
+Name: org/tranche/remote/StatusTableCallback.class
+SHA1-Digest: BWl5jkMUhK+8I+p6HEfKjtQsENo=
+
+Name: org/tranche/network/NetworkUtil$4$1.class
+SHA1-Digest: TODUR/jySGm2Ta6P5PWZIdpBuaU=
+
+Name: org/tranche/exceptions/PropagationUnfulfillableHostException.cla
+ ss
+SHA1-Digest: uwISQS8i1pcDM3hK8/MWw02PUtA=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$ServerRecord.class
+SHA1-Digest: 7Yt/vE4890GN73otBeTxop0a7pY=
+
+Name: org/tranche/TrancheServer.class
+SHA1-Digest: 6nm9Jdzp3eypequqsJdbz1UHHuk=
+
+Name: org/tranche/streams/StringPrintStream.class
+SHA1-Digest: ZzR94poQfVK4sfpX5+AUqMoxMqA=
+
+Name: org/tranche/network/NetworkUtil.class
+SHA1-Digest: 6m/bPgSNJc8T2bRkvyUKyeZ77n8=
+
+Name: org/tranche/network/NetworkUtil$4.class
+SHA1-Digest: JMBfmV+NrMRs1063VZLmlDw5KIY=
+
+Name: org/tranche/add/AddFileToolReport.class
+SHA1-Digest: ldKDX9HXpT8Tds9doird2RONkQ4=
+
+Name: org/tranche/exceptions/UnresponsiveServerException.class
+SHA1-Digest: wlDwHo/CRFvc19kDcUeILiTVwq8=
+
+Name: org/tranche/server/logs/InternalActionFlag.class
+SHA1-Digest: dRjbzsjnL41lqExTzEFT1byxSok=
+
+Name: org/tranche/scripts/ScriptsUtil.class
+SHA1-Digest: g5S95aHnltw61dKQRx09QBvHBMs=
+
+Name: org/tranche/add/AddFileTool$FileEncodingThread.class
+SHA1-Digest: SmLNXYZ0UevOJZTPrjdq5H1jJ68=
+
+Name: org/tranche/security/WrongPassphraseException.class
+SHA1-Digest: 2dIvSVWmiQgKNw58VkqhQSYWH3w=
+
+Name: org/tranche/configuration/Configuration.class
+SHA1-Digest: G6B1SVtshZQF6nVxnCq5BiwgZ98=
+
+Name: org/tranche/project/ProjectSummary.class
+SHA1-Digest: iBZ6bbATiNUOw/V9XY9XM9FwOFc=
+
+Name: org/tranche/util/TempFileUtil.class
+SHA1-Digest: 3aiSZRAQGY47XDFsDv71pgli7So=
+
+Name: org/tranche/add/AddFileToolEvent.class
+SHA1-Digest: UfiU+058sO6wutDx68XulxHX/WA=
+
+Name: org/tranche/project/ProjectReplicationTool.class
+SHA1-Digest: 8vB1QTP9l4qy27jtjYbZGwqxFbM=
+
+Name: org/tranche/meta/MetaDataUtil.class
+SHA1-Digest: fFkZKqhWbVdlxVthY3jUQ2t5/4I=
+
+Name: org/tranche/tasks/TaskUtil.class
+SHA1-Digest: GHXFj2xs3UfLa7mtfzd6rmS/cTE=
+
+Name: org/tranche/server/ServerStartupThread.class
+SHA1-Digest: QZdPWe7a857CQ4BJQX3ygYIX1Jc=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog.class
+SHA1-Digest: E32TwfmCdDSJGxlbQMkn/oSoolM=
+
+Name: org/tranche/get/GetFileTool$DataChunkBatch.class
+SHA1-Digest: IX4N7uxGTAqDp4HShv8eTkEmWYw=
+
+Name: org/tranche/get/GetFileToolAdapter.class
+SHA1-Digest: nYLnuZEytcY70zKU/J+cfAlsYXY=
+
+Name: org/tranche/add/AddFileToolReportListener.class
+SHA1-Digest: hD5FwllGoE/9eoSUkoLn8nRcHPM=
+
+Name: org/tranche/add/AddFileTool$DataUploadingThread.class
+SHA1-Digest: v7Tm2/dH+b3noMjIHYN1+yrL0b4=
+
+Name: org/tranche/remote/PurgedCallbackException.class
+SHA1-Digest: suib5FRY4rmy0PgGz7DTyJr4214=
+
+Name: org/tranche/remote/RemoteUtil.class
+SHA1-Digest: a9LcYiIgtyojT0/oafeWVa9IoN8=
+
+Name: org/tranche/server/HasDataItem.class
+SHA1-Digest: SjrizrUxgj4TJHU5QP+0FZM5EtI=
+
+Name: org/tranche/remote/RemoteCallbackRegistry$ScavengerThread.class
+SHA1-Digest: d0/Fx/NJ6oV8oIMT4yF2XbH8zxE=
+
+Name: org/tranche/annotations/Fix.class
+SHA1-Digest: Odh7X4oNRIek53w3kk1kXicgSDQ=
+
+Name: org/tranche/publish/PublishFileToolReport.class
+SHA1-Digest: SXi5k03G0f0uAvWbaJJZa6FPqVE=
+
+Name: org/tranche/server/RegisterServerItem$1.class
+SHA1-Digest: JLWlz/GhtIOne1Ib9Ekx1WdExq4=
+
+Name: org/tranche/httpd/Html.class
+SHA1-Digest: Q1LNqJXT4cHqxvfthcyRPHDPgYA=
+
+Name: org/tranche/routing/RoutingTrancheServerListener.class
+SHA1-Digest: U4QQA46KbUriGlyHt7xh8+yslz8=
+
+Name: org/tranche/util/OperatingSystemUtil.class
+SHA1-Digest: yqhV6uImLkc1YjPS8TwcOhVX/sc=
+
+Name: org/tranche/logs/activity/Activity.class
+SHA1-Digest: 18xiutG1RphSlrlV/qlu81UcsFo=
+
+Name: org/tranche/project/BackupProjectTool.class
+SHA1-Digest: QFhTwqvnBnBjMMUXiBu2MXCxJKY=
+
+Name: org/tranche/flatfile/HashSpanFixingThread.class
+SHA1-Digest: HpdTfU9lTMunGgl72fHBd51lC7Y=
+
+Name: org/tranche/scripts/InjectDataIntoTrancheNetwork$ChunkToInject.c
+ lass
+SHA1-Digest: cpfdMQCavngEhsmUyvHL+6pyFJc=
+
+Name: org/tranche/get/GetFileTool$MetaChunk.class
+SHA1-Digest: e72IM0JsL/Jcr/exTJ635pREblQ=
+
+Name: org/tranche/server/DeleteDataItem.class
+SHA1-Digest: SCtT4q6FoeFtH/zjlvf1uCPWO4w=
+
+Name: org/tranche/logs/SimpleLog.class
+SHA1-Digest: Qtw16Eud6+HSUEYzepV9ITYYaQk=
+
+Name: org/tranche/remote/OutGoingBytes.class
+SHA1-Digest: PAZOglgXoDbrPU542CilXUz4P4g=
+
+Name: org/tranche/flatfile/ProjectFindingThread.class
+SHA1-Digest: QbDSwnialXbAVU0qe+eResdAP4U=
+
+Name: org/tranche/add/AddFileToolPerformanceLog.class
+SHA1-Digest: UpXCO2i40N+pY+UzDT597aNOmds=
+
+Name: org/tranche/get/GetFileTool$1.class
+SHA1-Digest: ijbhrNs90hdFla4Aq4HDjBjr8/s=
+
+Name: org/tranche/util/TestUtil.class
+SHA1-Digest: xeDeUfZr0lz29CJeiwKjxRPhXEk=
+
+Name: org/tranche/servers/ServerEvent.class
+SHA1-Digest: nrXuIyeoBzngOnX1SlKg2i7vrvI=
+
+Name: org/tranche/streams/PrettyPrintStream.class
+SHA1-Digest: HW9nZrzHkGNOY+sf3X1tQHDVXvQ=
+
+Name: org/tranche/flatfile/HashSpanFixingThread$ReturnType.class
+SHA1-Digest: 7SlHFGh/on6AYuRmWRmyM18Lm2I=
+
+Name: org/tranche/default.conf
+SHA1-Digest: xdUUAkTe0Q2Bs4R/+l42uEijyqo=
+
+Name: org/tranche/httpd/Http.class
+SHA1-Digest: kkIdVCB3xS99MPsOiP+aKusVXb4=
+
+Name: org/tranche/network/ServerStatusUpdateProcess$1.class
+SHA1-Digest: y/PpxmZZ0d9yquFjyQIKvSdckGg=
+
+Name: org/tranche/network/StatusTableAdapter.class
+SHA1-Digest: 58DR4JElvb4bcEluNqQPN3EWdy4=
+
+Name: org/tranche/exceptions/PassphraseRequiredException.class
+SHA1-Digest: aKw8NAfFhRz2bKr3KFV7iIq0hBM=
+
+Name: org/tranche/clc/TrancheServerCommandLineClient.class
+SHA1-Digest: EXEtbhNm0MuMXqN2Mx27N7nv10k=
+
+Name: org/tranche/server/ServerWorkerThread$ServerWorkerThreadQueueIte
+ m.class
+SHA1-Digest: t9RpNbr2D4N7WRYMW/x6ytwGsyI=
+
+Name: org/tranche/network/ConnectionAdapter.class
+SHA1-Digest: EgFtAK70Zjzf/ueCunpEi6KQxgA=
+
+Name: org/tranche/annotations/TodoList.class
+SHA1-Digest: s/6rgM4B/UhBo6b1Hp87grEC7yI=
+
+Name: org/tranche/exceptions/CantHandleVersionException.class
+SHA1-Digest: gOTtDIyeFmEEd0a3cSAUdLEt8EI=
+
+Name: org/tranche/server/PingItem.class
+SHA1-Digest: D0a5dN3LqDkhB++GdpiljJgSz9M=
+
+Name: org/tranche/remote/ReconnectException.class
+SHA1-Digest: I3tEt1gLbqkYu29U6pW11YJV0Rc=
+
+Name: org/tranche/clc/TrancheServerCommandLineClientItem.class
+SHA1-Digest: Mw2huWGspIuVfCoWkUGPjpKb824=
+
+Name: org/tranche/server/GetNetworkStatusItem.class
+SHA1-Digest: 1C5Zo+mWB+cHxM5fh+vpJ6Nv0j4=
+
+Name: org/tranche/remote/RemoteCallbackRegistry$CallbackEntry.class
+SHA1-Digest: UEjf7+gYJ68QX/n47y2d4jYv1Ig=
+
+Name: org/tranche/network/ConnectionListener.class
+SHA1-Digest: 50p+QXyKB+NQCvIO05nwIxQd3TE=
+
+Name: org/tranche/add/AddFileToolPerformanceLog$ChunkWrapper.class
+SHA1-Digest: LR+nSrTGYC9gIdSDQiUrEMkeI8k=
+
+Name: org/tranche/util/EmailUtil.class
+SHA1-Digest: vnruRam5T7Eh53Lb2MTP7fju4/g=
+
+Name: org/tranche/project/FileReplicationDaemon.class
+SHA1-Digest: xgeb7HFDjkTWcJmS3CLS7sOX2oI=
+
+Name: org/tranche/get/GetFileTool$FileDecoding.class
+SHA1-Digest: edokNjvp5cGtJcfeYHqS9D70aFs=
+
+Name: org/tranche/httpd/HttpResponseMessages_en_US.properties
+SHA1-Digest: CLT/TI4bY8AGfegkzk5/ryeRLsY=
+
+Name: org/tranche/ConfigureTranche.class
+SHA1-Digest: 0jr9CBNMKkPAAtzXbrEcxgtTGL4=
+
+Name: org/tranche/delete/DeleteFileToolListener.class
+SHA1-Digest: GZzQv96zrNgRVjh9scQRMOy6tpc=
+
+Name: org/tranche/server/ServerWorkerThread.class
+SHA1-Digest: 0w9DUZ6Isxdwa7lEF1MTD87rAvs=
+
+Name: org/tranche/publish/PublishFileToolListener.class
+SHA1-Digest: qMcCCtPAYEul1kC0npMhSvh99xE=
+
+Name: org/tranche/configuration/ServerModeFlag.class
+SHA1-Digest: Rn/YhCenNjz+Na7iYBfuin81j9w=
+
+Name: org/tranche/hash/Base64Util.class
+SHA1-Digest: 0NKVlUZrSbOATRnDaPg0YzLGry4=
+
+Name: org/tranche/scripts/InjectDataIntoTrancheNetwork.class
+SHA1-Digest: vYxAPoFpzrZspZr5MCTapEes6r0=
+
+Name: org/tranche/exceptions/ChunkDoesNotMatchHashException.class
+SHA1-Digest: 81ASq8oMBHgKstGuN/HPw7/GA54=
+
+Name: org/tranche/clc/UserZipFileItem.class
+SHA1-Digest: /udHn/ImvFzaqdTaiB1QlkPbmZY=
+
+Name: org/tranche/server/HasMetaDataItem.class
+SHA1-Digest: JJF1zj6nzuPh/qyO7RuyJlvNBz4=
+
+Name: org/tranche/security/SecurityUtil.class
+SHA1-Digest: /06sEYpmDRcEsSyKqN6Q8WKq9xc=
+
+Name: org/tranche/flatfile/FlatFileTrancheServer$1.class
+SHA1-Digest: qR/+fYVtqV/5KiC+XA6IKyuVExM=
+
+Name: org/tranche/remote/CheckForErrorCallback.class
+SHA1-Digest: zHXerOCtDdPm0Hc4nTSaNwR7sqg=
+
+Name: org/tranche/license/LicenseUtil.class
+SHA1-Digest: JL1fYsY/y485Mvice2RF57UDJaw=
+
+Name: org/tranche/hash/DiskBackedBigHashList.class
+SHA1-Digest: 9GZGENz4fHSTehqBJhGwuw+ijsk=
+
+Name: org/tranche/remote/UnexpectedTokenException.class
+SHA1-Digest: 9lMSCrrICflscHEhcfX2Tqs7M04=
+
+Name: org/tranche/flatfile/DataDirectoryConfiguration.class
+SHA1-Digest: w3R97B6rFxCZVSCibdpAChUi3i4=
+
+Name: org/tranche/scripts/InjectDataIntoTrancheNetwork$ChunkInjectionT
+ hread.class
+SHA1-Digest: Ly4p+EJ7nDo0EGkvq9+cyLE6k6I=
+
+Name: org/tranche/network/ConnectionUtil.class
+SHA1-Digest: UGRQBbXr9fdd3bVWaSbKTkm61oM=
+
+Name: org/tranche/exceptions/MetaDataIsCorruptedException.class
+SHA1-Digest: fS5RDa9TKzetvN4Jjkme12t4kck=
+
+Name: org/tranche/get/GetFileTool$DirectoryDataDownloadingThread.class
+SHA1-Digest: mW1yTc+iJ704xPfE2yp7mqZr3zk=
+
+Name: org/tranche/util/IOUtil.class
+SHA1-Digest: OiucZEjKwfJedxrn+G4kmTkAe0E=
+
+Name: org/tranche/server/logs/Submittable.class
+SHA1-Digest: N1/Zp4J9d7lchHXdra79ClEjQHM=
+
+Name: org/tranche/server/PropagationExceptionWrapper.class
+SHA1-Digest: OJgRl0aUOqCxykw6Nyq48yAQjfk=
+
+Name: org/tranche/network/StatusTableRowRange.class
+SHA1-Digest: HS6A1wV+4yKpn3pgrJblGt3YcCo=
+
+Name: org/tranche/remote/RemoteTrancheServerUploadThread.class
+SHA1-Digest: ekNfJLiqJzeRH4b+diPJSQdovGo=
+
+Name: org/tranche/network/ConnectionUtilStatusTableListener.class
+SHA1-Digest: Hzm8ZeFDppuxmllBPr5Re0bfDcw=
+
+Name: org/tranche/exceptions/CouldNotFindMetaDataException.class
+SHA1-Digest: pAZBjHqWT5tKk17wV7iTeceytkQ=
+
+Name: org/tranche/tasks/CSVWriter.class
+SHA1-Digest: s7JyTmfXyN8nP2WafwgUfHBuvU0=
+
+Name: org/tranche/servers/ServerMessageEvent.class
+SHA1-Digest: Vxs2Bg3dk2Qh9uiUG4w46NNh4PQ=
+
+Name: org/tranche/remote/RemoteTrancheServerPerformanceListener.class
+SHA1-Digest: edKlXRHxpkFf858ZU0jDKuoWOg4=
+
+Name: org/tranche/httpd/Formatter.class
+SHA1-Digest: BobmY7kDUTVEdOpDkpPy6lqQxFY=
+
+Name: org/tranche/clc/TrancheServerCommandLineClientItemAttribute.clas
+ s
+SHA1-Digest: ByVPV2nHVpgdjTW12Q2P7UQJfhA=
+
+Name: org/tranche/util/OperatingSystem.class
+SHA1-Digest: Ag6qo6looJ39h7AZcCbIfNYa3fA=
+
+Name: org/tranche/scripts/BreakApartUserZipFile.class
+SHA1-Digest: zSv/CCJo9jlaoam+ZU8T8CjMNw8=
+
+Name: org/tranche/remote/RemoteCallbackRegistry.class
+SHA1-Digest: KJgpUBQrXZlooz1t+qRxOc19BFo=
+
+Name: org/tranche/add/AddFileToolAdapter.class
+SHA1-Digest: UftOnIGaEK3COEMHPAAhLdu/gW8=
+
+Name: org/tranche/flatfile/DataBlockUtil.class
+SHA1-Digest: QUvArbtvGs/3Z5nh3tNvKZSaYIs=
+
+Name: org/tranche/httpd/IFileResources.class
+SHA1-Digest: vWZIf83EBRS6Ddk57Rdyqc9aYrc=
+
+Name: org/tranche/project/DiskBackedProjectFilePartSet.class
+SHA1-Digest: YZFd8CWdPAxBi1gcpBtUxohiOms=
+
+Name: org/tranche/servers/ServerCallbackEvent.class
+SHA1-Digest: q3ZSD+n9LQhREGij0eWs+hcHDzU=
+
+Name: org/tranche/remote/GetHashesCallback.class
+SHA1-Digest: WO/pUFAZvAnHBG/EJiQa3dNZ5jw=
+
+Name: org/tranche/logs/LogUnit.class
+SHA1-Digest: X6OTQXOcuvyC3mu5FD06AjGrC0M=
+
+Name: org/tranche/server/GetMetaDataHashesItem.class
+SHA1-Digest: 0lVqiX5HwG+ARplOAOUeH62h1S8=
+
+Name: org/tranche/flatfile/DataBlockCache.class
+SHA1-Digest: BDMoF90VNobtb093k7SqozxgT78=
+
+Name: org/tranche/server/GetProjectHashesItem.class
+SHA1-Digest: RmJA5tnes6xMYasmI44Uu5b3yeU=
+
+Name: org/tranche/servers/CommandLineServerListener.class
+SHA1-Digest: VRvbieMrKZ+uRvvlBhWJDb39YLc=
+
+Name: org/tranche/get/GetFileToolPerformanceLog$ChunkType.class
+SHA1-Digest: 3XYHKxVa063pw3rTl5joianolZ4=
+
+Name: org/tranche/server/logs/LogEntry.class
+SHA1-Digest: NHmx6vyJ8KSudQFb5I04zjqS3Os=
+
+Name: org/tranche/get/GetFileToolEvent.class
+SHA1-Digest: waI4pGT4SOUDsTxrbI+aA0CPK8c=
+
+Name: org/tranche/logs/LogUtil$1.class
+SHA1-Digest: vLEvIUqXx2W+uTSTAMVurnQ37mM=
+
+Name: org/tranche/get/GetFileToolReportListener.class
+SHA1-Digest: Odmlx6TTm1BEIrkGm53s9T8LRqQ=
+
+Name: org/tranche/exceptions/UnexpectedEndOfDataBlockException.class
+SHA1-Digest: mrLV7OVpF6NyweMh312TKP4drow=
+
+Name: org/tranche/network/ConnectionUtil$3.class
+SHA1-Digest: zBQG3ly7qwT4V9CVgaraWW4zCGU=
+
+Name: org/tranche/project/DiskBackedProjectFilePartSet$1.class
+SHA1-Digest: IRfKJIRxJ3305JRiQAuwAYBq6bI=
+
+Name: org/tranche/streams/DeleteFileOnExitFileInputStream.class
+SHA1-Digest: f8i5OF1/8vF2Tqj4FShS9Mjh6wQ=
+
+Name: org/tranche/httpd/www/index.html
+SHA1-Digest: laO0KilJRQD8UPYLz6f7kPXXowA=
+
+Name: org/tranche/streams/WrappedOutputStream.class
+SHA1-Digest: khu/7LBLhoyFGmJWwANKcMwnjl8=
+
+Name: org/tranche/util/AssertionUtil.class
+SHA1-Digest: ZlDz7YkLqrB8LoKZQxPRGppLv7A=
+
+Name: org/tranche/server/logs/ActionByte.class
+SHA1-Digest: pli0v/EwOQg4TiwMLh9Qua/yBEU=
+
+Name: org/tranche/flatfile/HashSpanFixingThread$ThreadState.class
+SHA1-Digest: uHhjVYu6zMbHhI/tyvMA2QvWnag=
+
+Name: org/tranche/exceptions/ServerIsNotReadableException.class
+SHA1-Digest: tXuDZU0YgNXnVAFWj/0MN7HRM+A=
+
+Name: org/tranche/server/SetMetaDataItem$1.class
+SHA1-Digest: U3aJrgX6xub30S2otm7zwGtVDj4=
+
+Name: org/tranche/get/GetFileToolPerformanceLog.class
+SHA1-Digest: HehOmzr4TuzICGAqZFp8WCxDdNE=
+
+Name: org/tranche/flatfile/DataBlockToMerge.class
+SHA1-Digest: aIVwjNhHr76yelMOS2ThjMQv9bY=
+
+Name: org/tranche/add/CommandLineAddFileToolListener.class
+SHA1-Digest: zRbKHk6JOf2jocn7WYRuYi0emTk=
+
+Name: org/tranche/server/Server.class
+SHA1-Digest: c8f4UGdA5JkX9DKI1DL7EYAWPZ4=
+
+Name: org/tranche/clc/AddAdministratorItem.class
+SHA1-Digest: fCYP+TbTKtiud8l4ZYLtW8pomOQ=
+
+Name: org/tranche/server/logs/LogEntries.class
+SHA1-Digest: FEPRI6di2ib//RuKQ0icLCT8Pu0=
+
+Name: org/tranche/server/SetDataItem$1.class
+SHA1-Digest: x7AEsieaBpTspFxiQdWFGPOf85c=
+
+Name: org/tranche/flatfile/FlatFileTrancheServerListener.class
+SHA1-Digest: kltl0tz8HP93JY6oyLLgDMsGpA8=
+
+Name: org/tranche/util/OperatingSystemUtil$StreamType.class
+SHA1-Digest: cNXVXaKRu3mAtbHA+9c8QVEOqPM=
+
+Name: org/tranche/configuration/ConfigKeys.class
+SHA1-Digest: upzaIGgfxukisix9u63gij0NBDw=
+
+Name: org/tranche/httpd/www/ws/advanced.jnlp
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: org/tranche/security/Signature.class
+SHA1-Digest: T+hLajUVsv7z/KX3XGhzrNc3MK4=
+
+Name: org/tranche/get/GetFileToolReport.class
+SHA1-Digest: z9v1LCfzSEo/ai36QmhtRNZHcNk=
+
+Name: org/tranche/server/GetConfigurationItem.class
+SHA1-Digest: WCgEdd3/J+fwZLfa10OVhMUohoQ=
+
+Name: org/tranche/flatfile/logs/DataBlockUtilLogger.class
+SHA1-Digest: VT5Z1HpVzif1DLX1Mkxd6HXciYg=
+
+Name: org/tranche/httpd/QueueException.class
+SHA1-Digest: gJqHBimgNZfs1TDhBBRweSo+e/Y=
+
+Name: org/tranche/httpd/www/ws/upload.jnlp
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: org/tranche/server/ServerWorkerThread$ServerWorkerKeepAliveThrea
+ d.class
+SHA1-Digest: 4lgSrwVXRPOsQl1vShCcuIqndnM=
+
+Name: org/tranche/project/ProjectFileUtil.class
+SHA1-Digest: SZXSSEGCvtliKcyzkOBJqUK4i3I=
+
+Name: org/tranche/util/PreferencesUtil$1.class
+SHA1-Digest: IpIauNKQdb5CQoYS1pimjeHWB18=
+
+Name: org/tranche/logs/ConnectionDiagnosticsLog$AggregateRequest.class
+SHA1-Digest: dvvGa/rXhv3ghCGWEKiplrmPtPA=
+
+Name: org/tranche/network/StatusUpdateProcess.class
+SHA1-Digest: ysAk7iFxo+RsYc0xABw8AcDK7Tw=
+
+Name: org/tranche/server/logs/AutoUploadingBinaryLog$1.class
+SHA1-Digest: +k86FRgJH7DU7H5DJmlUpOLORfQ=
+
+Name: org/tranche/remote/Token.class
+SHA1-Digest: Zrp/8YT+CdqHVANvSa4iwR3E8q4=
+
+Name: org/tranche/add/AddFileTool$FileToUpload.class
+SHA1-Digest: kP4g6g7LGI6V81lh81sibsec6mA=
+
+Name: org/tranche/get/GetFileTool$FileDataDownloadingThread.class
+SHA1-Digest: XDu2KVQebxoXu5G9tJi2s1hLNIk=
+
+Name: org/tranche/FileEncoding.class
+SHA1-Digest: ejK3YDTkCVOrifwTa7KUVjDwD58=
+
+Name: org/tranche/meta/MetaData.class
+SHA1-Digest: xT/lFhbA0RI86rpsDqGa1YffxOQ=
+
+Name: org/tranche/project/ProjectFileCache.class
+SHA1-Digest: kxAbVMuVwm/tZFfuf+SsvrU+n3M=
+
+Name: org/tranche/project/ArbitraryProjectBuildingTool.class
+SHA1-Digest: j7Bgzw7RJFNbIaLv0uwuV+0fXQo=
+
+Name: org/tranche/time/TimeUtil$1.class
+SHA1-Digest: w0uImsTTJJUgYG8+816WADMuG2g=
+
+Name: org/tranche/annotations/Todo.class
+SHA1-Digest: iRQjGirC6YjKT6dPv0SSArVk6U0=
+
+Name: org/tranche/hash/span/HashSpanCalculator.class
+SHA1-Digest: DLSnYl3iwZhDV/fyopR287fi5P0=
+
+Name: org/tranche/server/GetActivityLogEntriesItem.class
+SHA1-Digest: O3jBYROAyg0aCQg9Uwh0KGWhI2E=
+
+Name: org/tranche/network/StatusTable.class
+SHA1-Digest: HjeM9LLB/626Ehjm4inLz4pZ3Uo=
+
+Name: org/tranche/server/GetDataItem.class
+SHA1-Digest: qh5n9aayYnnai+HqUi5FdOEaB2A=
+
+Name: org/tranche/logs/SimpleLog$1.class
+SHA1-Digest: X3bmj1fT8Udu8hJ/O6Ccw00d/Oo=
+
+Name: org/tranche/add/AddFileTool.class
+SHA1-Digest: BKvB0DfDUfbiCNgXTxJOjewI+Fg=
+
+Name: org/tranche/add/AddFileTool$DataChunk.class
+SHA1-Digest: o7nHWRWcQr/luLmXTCSKSBsp1Uw=
+
+Name: org/tranche/meta/MetaDataAnnotation.class
+SHA1-Digest: pBnHj1Yt2X/LBUgminAc/MN6PvI=
+
+Name: org/tranche/project/BackupProjectTool$Partition.class
+SHA1-Digest: kPQ8kDv9+nSvmqJyca7Rp+6lwy4=
+
+Name: org/tranche/exceptions/CorruptDataException.class
+SHA1-Digest: ur3kO4xQFf+I3fDkXmF7SolRu2w=
+
+Name: org/tranche/project/ProjectReplicationToolListener.class
+SHA1-Digest: BfUBT0r+IzfhtaqrG+yWxtqRb+U=
+
+Name: org/tranche/hash/Base64.class
+SHA1-Digest: uj0PsjFo8qAj/TYhiWOJIs9z9Sw=
+
+Name: org/tranche/scripts/ScriptsUtil$ServerLookupThread.class
+SHA1-Digest: D/EZ6HGFGzFKP/o4gQWl3pAdeUY=
+
+Name: org/tranche/project/ProjectFile.class
+SHA1-Digest: rQg1Dwicl7ZMtbFb2yl1UYjPTdA=
+
+Name: org/tranche/httpd/IHttpHandler.class
+SHA1-Digest: iTx5R4cQAh2aOcl/rbRgslkz2I0=
+
+Name: org/tranche/exceptions/OutOfDiskSpaceException.class
+SHA1-Digest: YtRvIilpFrrw6/MVZ5XP/SpggMM=
+
+Name: org/tranche/exceptions/TrancheProtocolException.class
+SHA1-Digest: YpHHFmsV7Rv3iT+/nBxgBpgboYA=
+
+Name: org/tranche/exceptions/UnsupportedServerOperationException.class
+SHA1-Digest: fmy9OrGrLK9OZ1lC/1A8nk5fKtQ=
+
+Name: org/tranche/network/ConnectionUtil$1.class
+SHA1-Digest: 9P+i4M6wXQ/oVv/JSdywmtz9QLU=
+
+Name: org/tranche/logs/activity/ActivityLogEntry.class
+SHA1-Digest: 4DD+yvT9rr8+7CGJrpcoozzxZXo=
+
+Name: org/tranche/network/ConnectionEvent.class
+SHA1-Digest: ot/ehluK5HubiEvcb9vrKQkWBtg=
+
+Name: org/tranche/server/logs/ChecksumException.class
+SHA1-Digest: QBRbeJyD2CSDyWMbZW2rxI8KOzE=
+
+Name: org/tranche/server/NonceItem.class
+SHA1-Digest: ET6oceogRUbGgMKhF0E0l67CaUA=
+
+Name: org/tranche/get/NotEnoughDiskSpaceException.class
+SHA1-Digest: qUTIAi9FZalq2yC40FSp7LHWBXs=
+
+Name: org/tranche/servers/ServerUtil.class
+SHA1-Digest: w3f32KmhKfkyFmqIMV+KNEH9NEw=
+
+Name: org/tranche/exceptions/NoMatchingServersException.class
+SHA1-Digest: +DTbHNWS1vjXSBID6k/a+Co6VNA=
+
+Name: org/tranche/network/MultiServerRequestStrategy.class
+SHA1-Digest: QJ79wjtMQTHKnty4c48wVloZM3c=
+
+Name: org/tranche/flatfile/DataBlock.class
+SHA1-Digest: 0cryXL4UOnNWx2W2Zc16XaOYLSQ=
+
+Name: org/tranche/server/GetDataHashesItem.class
+SHA1-Digest: L2R+QR9Bv1IUzemb/tY+fths/mI=
+
+Name: org/tranche/logs/activity/SignatureIndexEntry.class
+SHA1-Digest: NG4yJArG06xri8lCbkJPlYTTjco=
+
+Name: org/tranche/server/RegisterServerItem.class
+SHA1-Digest: FT/K3shhWrNNTUKZdO7lWZdNBaU=
+
+Name: org/tranche/delete/DeleteFileTool.class
+SHA1-Digest: Ml3UjL23NUNjACw+HbeiC6d3WtA=
+
+Name: org/tranche/server/GetActivityLogEntriesCountItem.class
+SHA1-Digest: nBP70jHrT6Om6AZkOJgACaympR0=
+
+Name: org/tranche/hash/Base64$OutputStream.class
+SHA1-Digest: lDOfdO/tKoWcrB0dbaeYN4Eo6VI=
+
+Name: org/tranche/timeestimator/TimeEstimator.class
+SHA1-Digest: Zmo6KyU9FchziviiUTHUP/3zxXU=
+
+Name: org/tranche/httpd/AbstractHttpHandler.class
+SHA1-Digest: ZxxGN6MtuhzyHO/mMZ7zi/ZQPVY=
+
+Name: org/tranche/server/logs/AutoUploadingBinaryLog.class
+SHA1-Digest: evLnG0ps1iBmi+ep5QDDDVN53M0=
+
+Name: org/tranche/meta/EditMetaDataTool.class
+SHA1-Digest: 70WYaTX1nSZznUmFoJ7q8R/M+tc=
+
+Name: org/tranche/hash/span/HashSpanCollection.class
+SHA1-Digest: QzEdiqvtvXRFagHczJRo/7+mXds=
+
+Name: org/tranche/server/SetMetaDataItem.class
+SHA1-Digest: LRoLKxwoJIppSXXUUOxXP240oa0=
+
+Name: org/tranche/servers/ServerUtil$1.class
+SHA1-Digest: zINzuN98RhoG7meeeKVXZwscrUg=
+
+Name: org/tranche/clc/ConfigurationItem.class
+SHA1-Digest: lwk4SpJDn5UIAo/akSCd0Jawgs0=
+
+Name: org/tranche/configuration/ConfigurationUtil.class
+SHA1-Digest: MLCsKlWaXIxR5ISJDKc6msM+hqw=
+
+Name: org/tranche/httpd/IVerbosity.class
+SHA1-Digest: UbwxILBlQCvZavTnGZoqw8kwNfk=
+
+Name: org/tranche/server/GetConfigurationNoSigItem.class
+SHA1-Digest: W4cEj9VPSJiCBhOI+2lT04QD7ew=
+
+Name: org/tranche/remote/ActivityArrayCallback.class
+SHA1-Digest: jrkosXT+MFmqXFFXVAGd6BxQeUI=
+
+Name: org/tranche/streams/GZIPEncodingStream.class
+SHA1-Digest: QAfAgr8Z1oWNRcMbGFD53OA0hGk=
+
+Name: org/tranche/servers/ServerMessageUpEvent.class
+SHA1-Digest: R+AtXcrC5hYOlhw3b0CBtGl6ros=
+
+Name: org/tranche/network/StatusTableRow.class
+SHA1-Digest: gjrguVRu+faJjHFhT4V1AGn1G/8=
+
+Name: org/tranche/flatfile/FlatFileTrancheServer.class
+SHA1-Digest: R9M1EAynZ9+T2LW9ydkDMwoA5gI=
+
+Name: org/tranche/httpd/GetHandler.class
+SHA1-Digest: C9/I+1fu3JWCGwUW7jDUkldnblk=
+
+Name: org/tranche/server/SetConfigurationItem.class
+SHA1-Digest: TjtMAhg+xEbWLWPpgFPqoRoCN0A=
+
+Name: org/tranche/remote/RemoteTrancheServerListener.class
+SHA1-Digest: DhujReDtUyrlfhHpPhX0+RhXRYg=
+
+Name: org/tranche/remote/RemoteCallbackPurgeListener.class
+SHA1-Digest: m7Kxn1+ct759Yr3uJx2TQ45anIQ=
+
+Name: org/tranche/meta/AmbiguousFileSelectionException.class
+SHA1-Digest: JAQ2dUvCE9V8sLFXYpOGJfikSyE=
+
+Name: org/tranche/server/DeleteMetaDataItem$1.class
+SHA1-Digest: PavtQ/quWXsIjl5fEqYrSNLpAUc=
+
+Name: org/tranche/get/GetFileTool.class
+SHA1-Digest: hEKFqD/zzUwbwnOAV7sEzPSr0ao=
+
+Name: org/tranche/streams/AESEncodingStream.class
+SHA1-Digest: K45Hi2/owaTckmxfF2vchPBPw0I=
+
+Name: org/tranche/exceptions/UnexpectedEndOfStreamException.class
+SHA1-Digest: 5s41bwSUCtRExwSupfZoFwgz778=
+
+Name: org/tranche/remote/RemoteTrancheServerDownloadThread.class
+SHA1-Digest: NLArIZccXf23ApxmFNrIv4FDidw=
+
