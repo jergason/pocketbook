@@ -33,7 +33,6 @@ module Pocketbook
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
     config.generators do |g|
-      g.fixture_replacement :factory_girl
       g.template_engine :haml
     end
 

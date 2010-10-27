@@ -4,3 +4,6 @@ log/*.log
 tmp/**/*
 *.swp
 .DS_Store
+.sass-cache
+*.tar
+db/migrate

@@ -1,0 +1,5 @@
+@mixin font-face($family, $filename) {
+  font-family: $family;
+  src: url($filename + ".eot'");
+  src: local('☺'), url($filename + ".woff'") format('woff'), url($filename + ".otf'") format('opentype'), url($filename + ".svg#" + $filename + "'") format('svg');
+}

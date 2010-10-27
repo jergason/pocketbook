@@ -1,4 +1,13 @@
 Pocketbook::Application.routes.draw do
+  get "search/search"
+
+  resources :raw_data_sets
+  match "raw_data_sets/:id/download" => "raw_data_sets#download"
+  get "about" => "pages#about"
+  get "help" => "pages#help"
+  match "search" => "search#search"
+  root :to => "pages#home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
