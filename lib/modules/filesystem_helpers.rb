@@ -8,3 +8,4 @@ module FilesystemHelpers
   end
 end
 
+puts "loaded filesystem helpers"

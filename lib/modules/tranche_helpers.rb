@@ -11,3 +11,5 @@ module TrancheHelpers
     compress_folder(save_location)
   end  
 end
+
+puts "Loaded Tranche Helpers!"

@@ -1,12 +1,11 @@
-#extend the standard libraries with some useful methods
-
-#add a method on the string class to whitelist
-#certain characters for shell commands.
-#Prevent shell injection.
-#Only allow alphanumeric characters and characters you would find
-# in paths, file names (wildcard chars like *, underscores, /) or tranche hashes
-class String
-  def shell_escape
-    self.gsub(%r{[^/\w\*\+=]}, "")
+module StdLibExtentions
+  #We want String in the global namespace. Without the 
+  #:: operator, the module makes the class definition
+  #refer to StdLibExtentions::String, which is incorrect.
+  #See http://stackoverflow.com/questions/4079672/can-i-add-to-a-class-definition-from-inside-a-module/4079702#4079702
+  class ::String
+    def shell_escape
+      self.gsub(%r{[^/\w\*\+=]}, "")
+    end
   end
 end
