@@ -15,6 +15,13 @@ class RawDataSetsController < ApplicationController
   end
 
   def download
+    #TODO: is this a valid tranche_hash?
+
+    #TODO: Give them a progress bar while we are downloading
+    # from Tranche, and then start the download normally.
+
+    #TODO: change to send_data, more secure that way.
+    send_file(download_file_from_tranche(params[:tranche_hash]))
     #could be accessible by tranche hash or by id
   end
 
@@ -23,6 +30,11 @@ class RawDataSetsController < ApplicationController
   end
 
   def create
+    @raw_data_set = RawDataSet.new(params[:raw_data_set])
+    if @raw_data_set.save
+      redirect_to @raw_data_set
+    else
+      render "new"
+    end
   end
-
 end
