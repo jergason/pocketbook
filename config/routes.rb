@@ -1,4 +1,6 @@
 Pocketbook::Application.routes.draw do
+  resources :users
+
   get "search/search"
 
   resources :raw_data_sets
