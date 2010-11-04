@@ -1,4 +1,5 @@
 class RawDataSetsController < ApplicationController
+  before_filter :authenticate_user!, :except => [:show, :index, :download]
   def show
     @title = "Show"
     @raw_data_set = RawDataSet.find(params[:id])

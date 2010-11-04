@@ -12,4 +12,6 @@
       %li
         != "#{link_to("Search", search_path)} | "
       %li
-        != "#{link_to("Browse", raw_data_sets_path)}"
+        != "#{link_to("Browse", raw_data_sets_path)} | "
+      %li
+        = render :partial => 'layouts/sign_in_out_up'
