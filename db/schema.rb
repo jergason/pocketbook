@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101104201819) do
+ActiveRecord::Schema.define(:version => 20101104223949) do
 
   create_table "raw_data_sets", :force => true do |t|
     t.string   "organism_name"
@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(:version => 20101104201819) do
     t.datetime "updated_at"
     t.integer  "user_id"
   end
+
+  add_index "raw_data_sets", ["user_id"], :name => "index_raw_data_sets_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                               :default => "", :null => false
@@ -36,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20101104201819) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "raw_data_sets_count"
+    t.string   "username"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
