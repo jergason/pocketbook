@@ -13,6 +13,8 @@ group :development do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'annotate-models'
+  gem 'hpricot'
+  gem 'ruby_parser'
 end
 
 # Use unicorn as the web server
