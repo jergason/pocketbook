@@ -1,5 +1,7 @@
 Pocketbook::Application.routes.draw do
 
+  devise_for :users
+
   get "search/search"
 
   resources :raw_data_sets
