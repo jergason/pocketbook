@@ -37,6 +37,9 @@ module Pocketbook
       g.template_engine :haml
     end
 
+    #setup default url options per Devise installation instructions
+    config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
