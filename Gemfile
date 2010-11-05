@@ -17,6 +17,11 @@ group :development do
   gem 'ruby_parser'
 end
 
+group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

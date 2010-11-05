@@ -2,9 +2,16 @@ require 'spec_helper'
 
 describe RawDataSetsController do
 
+  render_views
+
+  before do
+    @rds = Factory(:raw_data_set)
+    RawDataSet.create!(@rds)
+  end
+
   describe "GET 'show'" do
     it "should be successful" do
-      get 'show'
+      get :show, :id => @rds.id
       response.should be_success
     end
   end
