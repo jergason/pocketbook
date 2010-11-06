@@ -7,6 +7,9 @@ describe SearchController do
       get 'search'
       response.should be_success
     end
+
+    pending "check on the actual search functionality"
+    pending "check on the autocomplte functionality"
   end
 
 end

@@ -1,13 +1,13 @@
 class RawDataSetsController < ApplicationController
-  #before_filter :authenticate_user!, :except => [:show, :index, :download]
+  before_filter :authenticate_user!, :except => [:show, :index, :download]
   def show
     @title = "Show"
     @raw_data_set = RawDataSet.find(params[:id])
 
     respond_to do |format|
       format.html
-      format.xml { render :json => @raw_data_set.to_json }
-      format.json { render :xml => @raw_data_set.to_xml }
+      format.xml { render :json => @raw_data_set }
+      format.json { render :xml => @raw_data_set }
     end
   end
 
@@ -22,7 +22,7 @@ class RawDataSetsController < ApplicationController
     # from Tranche, and then start the download normally.
 
     #TODO: change to send_data, more secure that way.
-    send_file(download_file_from_tranche(params[:tranche_hash]))
+    #send_file(download_file_from_tranche(params[:tranche_hash]))
     #could be accessible by tranche hash or by id
   end
 

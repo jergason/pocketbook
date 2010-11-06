@@ -1,2 +1,11 @@
-%h1 Users#show
-%p Find me in app/views/users/show.html.haml
+.user
+  Username:
+  %br
+  = @user.username
+  %br
+  Email Address:
+  = @user.email
+  %br
+  %h3 Raw Data Sets for this user:
+  = render :partial => "raw_data_sets/raw_data_sets_table", :locals => { :raw_data_sets => @raw_data_sets }
+

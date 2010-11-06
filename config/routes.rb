@@ -1,14 +1,13 @@
 Pocketbook::Application.routes.draw do
 
-  get "users/show"
-
-  get "users/index"
-
   devise_for :users do
     get "/login" => "devise/sessions#new"
     get "/logout" => "devise/sessions#destroy"
     get "/signup" => "devise/registrations#new"
   end
+
+  match "/users/:id" => "users#show", :via => :get
+  match "/users" => "users#index", :via => :get
 
   get "search/search"
 

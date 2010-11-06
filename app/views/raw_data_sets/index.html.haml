@@ -1,3 +1,3 @@
 #index
   %h3 Browse The Data
-  = render :partial => "layouts/raw_data_sets_table"
+  = render :partial => "raw_data_sets_table", :locals => { :raw_data_sets => @raw_data_sets }

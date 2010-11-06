@@ -24,8 +24,8 @@ describe RawDataSet do
     end
 
     it "should have the correct user associated with it" do
-      @raw_data_set.user_id should == @user.id
-      @raw_data_set.user should == @user
+      @raw_data_set.user_id.should == @user.id
+      @raw_data_set.user.should == @user
     end
   end
 

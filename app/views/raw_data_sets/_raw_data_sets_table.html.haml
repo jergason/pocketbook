@@ -4,10 +4,14 @@
     %th Organism Name
     %th Mass Spec Type
     %th Spectra Type
-  - @raw_data_sets.each do |raw_data_set|
+    %th Uploaded By
+  - raw_data_sets.each do |raw_data_set|
     %tr
       %td #{link_to("#{raw_data_set.id}", raw_data_set)}
       %td #{raw_data_set.organism_name}
       %td #{raw_data_set.mass_spec_type}
       %td #{raw_data_set.spectra_type}
-
+      - if raw_data_set.user
+        %td #{raw_data_set.user.username}
+      - else
+        %td Anonymous
