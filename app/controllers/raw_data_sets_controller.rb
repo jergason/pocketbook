@@ -6,8 +6,8 @@ class RawDataSetsController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.xml { render :json => @raw_data_set }
-      format.json { render :xml => @raw_data_set }
+      format.xml { render :xml => @raw_data_set.to_xml }
+      format.json { render :json => @raw_data_set.to_json }
     end
   end
 

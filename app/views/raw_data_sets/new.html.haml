@@ -1,13 +1,10 @@
 %h1 Submit A New Data Set
-= form_for(@raw_data_set) do |f|
+= form_for(@raw_data_set, :html => { :multipart => true }) do |f|
   = f.label :mass_spec_type, 'Mass Spec Type'
   = f.text_field :mass_spec_type
   %br
   = f.label :organism_name, "Organism Name"
   = f.text_field :organism_name
-  %br
-  = f.label :spectra_type, "Spectra Type"
-  = f.text_field :spectra_type
   %br
   = submit_tag "Submit"
 
