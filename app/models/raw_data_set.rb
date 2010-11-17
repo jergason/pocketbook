@@ -15,6 +15,8 @@
 class RawDataSet < ActiveRecord::Base
   belongs_to :user, :counter_cache => true
 
-  #make sure a malicious user can't change the user id of a raw data set?
+  # Make sure a malicious user can't change the user id of a raw data set.
   attr_accessible :organism_name, :mass_spec_type, :spectra_type
+
+  delegate :username, :to => :user
 end
