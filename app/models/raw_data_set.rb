@@ -18,5 +18,5 @@ class RawDataSet < ActiveRecord::Base
   # Make sure a malicious user can't change the user id of a raw data set.
   attr_accessible :organism_name, :mass_spec_type, :spectra_type
 
-  delegate :username, :to => :user, :prefix => true
+  delegate :username, :to => :user
 end
