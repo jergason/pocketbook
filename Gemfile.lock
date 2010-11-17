@@ -33,6 +33,10 @@ GEM
       activesupport (~> 3.0.0)
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
+    daemons (1.1.0)
+    delayed_job (2.1.1)
+      activesupport (~> 3.0)
+      daemons
     devise (1.1.3)
       bcrypt-ruby (~> 2.1.2)
       warden (~> 0.10.7)
@@ -104,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate-models
+  delayed_job
   devise
   factory_girl_rails
   haml-rails

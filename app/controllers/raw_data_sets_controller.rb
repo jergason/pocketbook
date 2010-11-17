@@ -32,6 +32,7 @@ class RawDataSetsController < ApplicationController
 
   def create
     @raw_data_set = RawDataSet.new(params[:raw_data_set])
+    uploaded_io = params[:raw_data_set][:raw_data]
     if @raw_data_set.save
       redirect_to @raw_data_set
     else
