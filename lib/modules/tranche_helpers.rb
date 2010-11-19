@@ -12,6 +12,11 @@ module TrancheHelpers
   end  
 
   def upload_file_to_tranche(file_path)
-    "zklhweofihlksh++hlfk=="
+    path_to_upload_util = Rails.root.join("app", "tranche", "pc-tranche-add.jar")
+
+    tranche_command  = "java -jar #{path_to_upload_util} --login jergason@byu.edu goodsman2 #{file_path}"
+    res = `#{tranche_command}`
+
+    #TODO: add some error testing
   end
 end

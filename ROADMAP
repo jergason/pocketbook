@@ -8,4 +8,52 @@ make it simpler!!!!
 
 fix menu css
 fix css for alerts upon signin or signout
-add relationships between users and raw data sets
+
+
+link to paper on raw data set
+dowload directly from trache option
+users can opt out of having the data associated with them
+admin user to upload anonymous data
+
+TODO
+====
+
+##File Upload
+
+* Multiple file upload
+  * This means the files should be uploaded into their own
+    directory, and the whole directory should be passed as the
+    file path to the file upload method.
+* Users should upload using their own tranche user
+  * Add tranche username and password to the User model?
+  * Make it default to using the pocketbook username and password?
+  * Radio button in the user account page for determining whether they
+    want to use the pocketbook tranche account or their own credentials?
+  * Where to put the constants for the site tranche user credentials?
+* Better error handling
+  * If it is an authentication error, have them check their credentials
+    and offer to just use the default pocketbook account.
+* Automated way to test file upload, and then mark for deletion.
+  Look at selenium maybe?
+
+##File Download
+
+* Make tranche hash link to the java downloader?
+* Do we split the download into a separate process? Use delayed job? how?
+
+##Search
+
+* Look at solr configuration.
+
+
+##Questions for presentation:
+
+* How to handle errors in uploading if we are using delayed_job?
+* How to handle tranche authentication? We would need to store their password
+  in plain text in the database in order for it to work. Also, would be a
+  little annoying to have two separate authentication schemes, one for pocketbook
+  and one for tranche.
+  * Should the default be to use pocketbook? Radio button, when they want to
+    use their own authentication they select the button and something pops
+    out to enter it?
+

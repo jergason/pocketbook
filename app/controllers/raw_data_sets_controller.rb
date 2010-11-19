@@ -35,13 +35,16 @@ class RawDataSetsController < ApplicationController
     #TODO: use build and current_user to create the raw_data_set
     @raw_data_set = current_user.raw_data_sets.build(params[:raw_data_set])
     if @raw_data_set.save
-      # Download the file into the tmp directory.
-      uploaded_io = params[:raw_data_set][:raw_data]
-      file_path = Rails.root.join("tmp", "uploads", Time.now.to_i.to_s)
-      File.open(file_name, 'w') { |file| file.write(uploaded_io.read) }
-      
-      # Send off a delayed job to upload the files to Tranche
-      @raw_data_set.delay.upload(file_path)
+      if params[:raw_data_set][:data_file]
+        # Download the file into the tmp directory.
+        uploaded_io = params[:raw_data_set][:data_file]
+        file_path = Rails.root.join("tmp", "uploads", Time.now.to_i.to_s)
+        File.open(file_path, 'w') { |file| file.write(uploaded_io.read) }
+
+        # Send off a delayed job to upload the files to Tranche
+        @raw_data_set.delay.upload(file_path)
+      end
+      flash[:success] = "Created your data set, and uploading it to tranche."
 
       redirect_to @raw_data_set
     else

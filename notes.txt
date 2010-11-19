@@ -1,6 +1,0 @@
-link to paper on raw data set
-dowload directly from trache option
-users can opt out of having the data associated with them
-admin user to upload anonymous data
-
-spectra type is for individual data files, not whole data sets. Remove that.

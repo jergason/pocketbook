@@ -47,4 +47,7 @@ describe RawDataSet do
       @raw_data_set.user.should == @user
     end
   end
+
+  describe "upload" do
+  end
 end

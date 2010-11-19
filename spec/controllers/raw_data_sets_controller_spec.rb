@@ -82,6 +82,18 @@ describe RawDataSetsController do
           post :create, :raw_data_set => @attr
         end.should change(RawDataSet, :count).by(1)
       end
+
+      it "should display a flash message upon successful creation" do
+        post :create, :raw_data_set => @attr
+        flash[:success].should =~ /created your data set/i
+      end
+
+      describe "upload" do
+        it "should ignore an empty upload parameter" do
+          post :create, :raw_data_set => @attr.merge({ :data_file => nil })
+          response.should be_success
+        end
+      end
     end
   end
 
