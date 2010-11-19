@@ -10,6 +10,8 @@ module TrancheHelpers
     system( command )
     compress_folder(save_location)
   end  
-end
 
-puts "Loaded Tranche Helpers!"
+  def upload_file_to_tranche(file_path)
+    "zklhweofihlksh++hlfk=="
+  end
+end

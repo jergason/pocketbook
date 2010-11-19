@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101117161935) do
+ActiveRecord::Schema.define(:version => 20101118232640) do
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20101117161935) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
+    t.string   "tranche_hash"
   end
 
   add_index "raw_data_sets", ["user_id"], :name => "index_raw_data_sets_on_user_id"

@@ -1,5 +1,6 @@
 class RawDataSetsController < ApplicationController
   before_filter :authenticate_user!, :except => [:show, :index, :download]
+
   def show
     @title = "Show"
     @raw_data_set = RawDataSet.find(params[:id])
@@ -31,9 +32,17 @@ class RawDataSetsController < ApplicationController
   end
 
   def create
-    @raw_data_set = RawDataSet.new(params[:raw_data_set])
-    uploaded_io = params[:raw_data_set][:raw_data]
+    #TODO: use build and current_user to create the raw_data_set
+    @raw_data_set = current_user.raw_data_sets.build(params[:raw_data_set])
     if @raw_data_set.save
+      # Download the file into the tmp directory.
+      uploaded_io = params[:raw_data_set][:raw_data]
+      file_path = Rails.root.join("tmp", "uploads", Time.now.to_i.to_s)
+      File.open(file_name, 'w') { |file| file.write(uploaded_io.read) }
+      
+      # Send off a delayed job to upload the files to Tranche
+      @raw_data_set.delay.upload(file_path)
+
       redirect_to @raw_data_set
     else
       render "new"

@@ -38,6 +38,7 @@ describe User do
     before do
       @user = User.create(@attr)
       @raw_data_set_1 = Factory(:raw_data_set, :user => @user, :created_at => 1.day.ago)
+      p @raw_data_set_1
       @raw_data_set_2 = Factory(:raw_data_set, :user => @user, :created_at => 1.hour.ago)
     end
 

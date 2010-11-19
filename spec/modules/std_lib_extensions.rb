@@ -25,7 +25,5 @@ describe "String" do
       test = "tQ/jD7djpa1NPhDkeDo5o3LttmlZV442+uI0fne4bp5YxaOjpAaVsDVoU7wurvv5C59UV8HLdBshyUxwXlae15JyoRQAAAAAAAAC4w=="
       test.shell_escape.should == test
     end
-
   end
-
 end
