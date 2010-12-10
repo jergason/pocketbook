@@ -39,6 +39,9 @@ TODO
 ##File Download
 
 * Make tranche hash link to the java downloader?
+  * This is harder than it sounds, because the hash is in no way related
+    to the link to download the file. The link is in the form of
+    
 * Do we split the download into a separate process? Use delayed job? how?
 
 ##Search

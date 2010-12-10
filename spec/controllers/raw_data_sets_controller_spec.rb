@@ -6,10 +6,11 @@ describe RawDataSetsController do
   render_views
 
   def mock_users(stubs={})
-    @user ||= mock_model(User, stubs).as_null_object
+    @user ||= Factory(:user)
   end
 
   def log_in_test_user
+
     attr = { :username => "Foobar", :email => "doineedit@foobar.com" }
     #mock up an authentication in warden
     request.env['warden'] = mock(Warden, :authenticate => mock_users(attr),
@@ -88,11 +89,11 @@ describe RawDataSetsController do
         flash[:success].should =~ /created your data set/i
       end
 
-      describe "upload" do
-        it "should ignore an empty upload parameter" do
+      it "should work when there is no upload" do
+        lambda do
           post :create, :raw_data_set => @attr.merge({ :data_file => nil })
-          response.should be_success
-        end
+        end.should change(RawDataSet, :count).by(1)
+        response.should be_redirect
       end
     end
   end

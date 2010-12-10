@@ -36,6 +36,8 @@ module Pocketbook
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
     config.generators do |g|
       g.template_engine :haml
+      g.helper_specs false
+      g.view_specs false
     end
 
     #setup default url options per Devise installation instructions

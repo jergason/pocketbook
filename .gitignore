@@ -7,3 +7,7 @@ tmp/**/*
 .sass-cache
 *.tar
 db/migrate
+tmp
+coverage
+doc/app
+lib/metric_fu.rake

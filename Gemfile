@@ -14,9 +14,12 @@ group :development do
 end
 
 group :development, :test do
+  gem 'selenium'
+  gem 'zip'
   gem 'rcov'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'metric_fu'
 end
 
 # Use unicorn as the web server

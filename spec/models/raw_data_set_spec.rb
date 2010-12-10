@@ -3,21 +3,27 @@ require 'spec_helper'
 describe RawDataSet do
   before do
     @user = Factory :user
-    @attr = { 
-      :organism_name => "Beef Jerky",
-      :mass_spec_type => "My Stomach",
-    }
+    @attr = Factory.attributes_for(:raw_data_set)
   end
 
   describe "attributes" do
-    it "should have a tranche_hash attribuite" do
+    before do
       @rds = Factory(:raw_data_set)
+    end
+    it "should have a tranche_hash attribuite" do
       @rds.respond_to?(:tranche_hash).should be_true
     end
 
     it "should have a username attribute" do
-      @rds = Factory(:raw_data_set)
       @rds.respond_to?(:username).should be_true
+    end
+
+    it "should have an organism_name attribute" do
+      @rds.respond_to?(:organism_name).should be_true
+    end
+    
+    it "should have a mass_spec_type attribute" do
+      @rds.respond_to?(:mass_spec_type).should be_true
     end
   end
 
@@ -49,5 +55,41 @@ describe RawDataSet do
   end
 
   describe "upload" do
+  end
+
+  describe "validations" do
+    describe "user_id" do
+      it "should validate the presence of a user_id" do
+        RawDataSet.create(@attr).should_not be_valid
+      end
+
+      it "should validate the presence of an organism_name" do
+        RawDataSet.create(@attr.merge({ :organism_name => nil })).should_not be_valid
+      end
+
+      it "should validate presence of mass_spec_type" do
+        RawDataSet.create(@attr.merge({ :mass_spec_type => nil })).should_not be_valid
+      end
+
+      it "should validate presence of tranche_hash" do
+        RawDataSet.create(@attr.merge({ :tranche_hash => nil })).should_not be_valid
+      end
+
+      it "should reject organism_name longer than 255 characters" do
+        RawDataSet.create(@attr.merge({ :organism_name => "a" * 256 })).should_not be_valid
+      end
+
+      it "should reject mass_spec_type longer than 255 characters" do
+        RawDataSet.create(@attr.merge({ :mass_spec_type => "a" * 256 })).should_not be_valid
+      end
+
+      it "should reject organism_name shorter than 2 characters" do
+        RawDataSet.create(@attr.merge({ :organism_name => "a" })).should_not be_valid
+      end
+
+      it "should reject mass_spec_type shorter than 2 characters" do
+        RawDataSet.create(@attr.merge({ :mass_spec_type => "a"})).should_not be_valid
+      end
+    end
   end
 end

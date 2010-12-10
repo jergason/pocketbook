@@ -16,9 +16,11 @@ class RawDataSet < ActiveRecord::Base
   belongs_to :user, :counter_cache => true
 
   # Make sure a malicious user can't change the user id of a raw data set.
-  attr_accessible :organism_name, :mass_spec_type, :spectra_type, :tranche_hash
+  attr_accessible :organism_name, :mass_spec_type, :tranche_hash
 
-  validates :user_id, :presence => true
+  validates_presence_of :user_id, :organism_name, :mass_spec_type
+  validates_associated :user
+  validates_length_of :organism_name, :in => 2..255
 
   delegate :username, :to => :user
 
@@ -27,7 +29,7 @@ class RawDataSet < ActiveRecord::Base
   def upload(file_path)
     hash = upload_file_to_tranche(file_path)
     self.tranche_hash = hash
-    self.save
+    save
     File.delete(file_path)
   end
 end

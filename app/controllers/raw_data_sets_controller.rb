@@ -1,15 +1,11 @@
+#Manage uploaded data set creation and manipulation.
 class RawDataSetsController < ApplicationController
+  include FilesystemHelpers
   before_filter :authenticate_user!, :except => [:show, :index, :download]
 
   def show
     @title = "Show"
     @raw_data_set = RawDataSet.find(params[:id])
-
-    respond_to do |format|
-      format.html
-      format.xml { render :xml => @raw_data_set.to_xml }
-      format.json { render :json => @raw_data_set.to_json }
-    end
   end
 
   def index
@@ -35,20 +31,19 @@ class RawDataSetsController < ApplicationController
     #TODO: use build and current_user to create the raw_data_set
     @raw_data_set = current_user.raw_data_sets.build(params[:raw_data_set])
     if @raw_data_set.save
-      if params[:raw_data_set][:data_file]
-        # Download the file into the tmp directory.
-        uploaded_io = params[:raw_data_set][:data_file]
-        file_path = Rails.root.join("tmp", "uploads", Time.now.to_i.to_s)
-        File.open(file_path, 'w') { |file| file.write(uploaded_io.read) }
-
+      # Handle an upload if there is one
+        file_path = save_file_into_tmp_dir(params[:raw_data_set][:data_file])
         # Send off a delayed job to upload the files to Tranche
-        @raw_data_set.delay.upload(file_path)
-      end
-      flash[:success] = "Created your data set, and uploading it to tranche."
-
+        if file_path
+          @raw_data_set.delay.upload(file_path)
+        end
+        flash[:success] = "Created your data set, and uploading it to tranche."
       redirect_to @raw_data_set
     else
-      render "new"
+      # Go back to the form for creating a new raw
+      # data set and display any errors.
+      render :action => "new"
     end
   end
 end
+

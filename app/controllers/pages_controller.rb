@@ -1,3 +1,4 @@
+#Controller for serving static pages.
 class PagesController < ApplicationController
   def home
     @title = "Home"
