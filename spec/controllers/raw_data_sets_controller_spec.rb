@@ -67,9 +67,9 @@ describe RawDataSetsController do
 
     describe "anonymous user" do
       it "should not work without a logged-in user" do
-        lambda do
+        expect do
           post :create, :raw_data_set => @attr
-        end.should_not change(RawDataSet, :count)
+        end.to_not change(RawDataSet, :count)
       end
     end
 
@@ -79,9 +79,9 @@ describe RawDataSetsController do
       end
 
       it "should create a raw_data_set when the user is logged in" do
-        lambda do
+        expect do
           post :create, :raw_data_set => @attr
-        end.should change(RawDataSet, :count).by(1)
+        end.to change(RawDataSet, :count).by(1)
       end
 
       it "should display a flash message upon successful creation" do
@@ -90,9 +90,9 @@ describe RawDataSetsController do
       end
 
       it "should work when there is no upload" do
-        lambda do
+        expect do
           post :create, :raw_data_set => @attr.merge({ :data_file => nil })
-        end.should change(RawDataSet, :count).by(1)
+        end.to change(RawDataSet, :count).by(1)
         response.should be_redirect
       end
     end
